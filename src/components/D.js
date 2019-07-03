@@ -4,6 +4,7 @@ function d(WrappedComponent) {
     render() {
       return (
         <div>
+          我是高阶组件：
           <WrappedComponent />
         </div>
       );
